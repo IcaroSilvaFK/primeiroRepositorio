@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient( #1C57E1, #779BF0);
+    text-transform: uppercase;
+    color: white;
+}
+
+h1:hover {
+    cursor: default
+}
+
+h1::after {
+    content: '';
+    height: 3px;
+    width: 300px;
+    background: linear-gradient( #1BA39C, #0F6177);
+    display: block;
+    margin: 10px auto;
+}
+
+ul {
+    background-color: #ddd;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    padding: 8px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black
+}
+
+ul li a:hover {
+    text-decoration: none;
+    background-color: #0F6177;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: step-end 0.2s;
+}
+
+.text {
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 10px;
+    width: 600px;
+    margin: 10px auto;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.link {
+    width: 15%;
+    margin: 15px auto;
+}
+
+.linkdiferente {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #131A1E;
+    font-family: cursive;
+    letter-spacing: 1px;
+    padding: 10px
+}
+
+.linkdiferente:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+    -moz-text-decoration-color: red;
+    transition: linear 0.3s;
+}
+
+h2::before {
+    content: "";
+    height: 5px;
+    width: 600px;
+    background: linear-gradient( #779BF0, #1136C7);
+    display: block;
+    margin: auto;
+    border-radius: 10px
+}
+
+h2::after {
+    content: "";
+    height: 5px;
+    width: 600px;
+    background: linear-gradient( #ddd, #d7d7d7);
+    display: block;
+    margin: auto;
+    border-radius: 10px
+}
+
+.linkcontent {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #000;
+    display: block;
+    border-top: 1px solid #ddd
+}
+
+.linkcontent:hover {
+    background-color: #ddd;
+    color: white;
+    text-decoration: underline;
+    transition: linear .4s;
+}
